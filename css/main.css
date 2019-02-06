@@ -20,6 +20,16 @@ h1, h2, h3, p {
 	font-weight: normal;
 }
 
+h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
 div {
 	margin: 20px;
 }
