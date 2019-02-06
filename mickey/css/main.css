@@ -32,8 +32,8 @@ body {
 
 /* 
 adjust the top and left 
-properties of the elements and 
-their z-index to position them 
+properties of the elements
+to position them 
 */
 
 #ear-1 {
@@ -43,7 +43,6 @@ their z-index to position them
 
 	top: 100px;
 	left: 20px;
-
 }
 
 #ear-2 {
@@ -53,7 +52,6 @@ their z-index to position them
 
 	top: 20px;
 	left: 120px;
-
 }
 
 #head {
@@ -71,7 +69,7 @@ their z-index to position them
 	background: black;
 
 	top: 160px;
-    left: 180px;
+	left: 180px;
 }
 
 #eye-2 {
@@ -80,7 +78,7 @@ their z-index to position them
 	background: black;
 
 	top: 160px;
-    left: 220px;
+	left: 220px;
 }
 
 #nose {
@@ -89,7 +87,7 @@ their z-index to position them
 	background: black;
 
 	top: 180px;
-    left: 260px;
+	left: 260px;
 }
 
 #mouth {
@@ -98,7 +96,7 @@ their z-index to position them
 	background: red;
 
 	top: 220px;
-    left: 170px;
+	left: 170px;
 }
 
 #body {
@@ -107,7 +105,7 @@ their z-index to position them
 	background: red;
 
 	top: 260px;
-    left: 190px;
+	left: 190px;
 }
 
 #button-1 {
@@ -116,7 +114,7 @@ their z-index to position them
 	background: black;
 
 	top: 320px;
-    left: 260px;
+	left: 260px;
 }
 
 #button-2 {
@@ -125,24 +123,24 @@ their z-index to position them
 	background: black;
 
 	top: 310px;
-    left: 300px;
+	left: 300px;
 }
 
 
 #foot-1 {
 	width: 150px;
-    height: 150px;
-    background: yellow;
-    
-    top: 390px;
-    left: 80px;
+	height: 150px;
+	background: yellow;
+
+	top: 390px;
+	left: 80px;
 }
 
 #foot-2 {
 	width: 150px;
-    height: 150px;
-    background: yellow;
-    
-    top: 440px;
-    left: 250px;
+	height: 150px;
+	background: yellow;
+
+	top: 440px;
+	left: 250px;
 }
