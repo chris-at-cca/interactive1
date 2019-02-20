@@ -32,4 +32,39 @@ body {
 	top: 75px;
 	left: 175px;
 
+	transition: all 400ms ease;
 }
+
+/*
+#circle:hover {
+	border-radius: 0px;
+	background: blue;
+	transform: rotate(180deg);
+}
+
+*/
+
+#circle-2 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 75px;
+
+	position: absolute;
+	top: 75px;
+	left: 175px;
+
+	transition: all 400ms ease;
+
+	mix-blend-mode: screen;
+}
+
+#canvas:hover #circle{
+	transform: translateX(-120px);
+}
+
+
+#canvas:hover #circle-2{
+	transform: translateX(120px);
+}
+

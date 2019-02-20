@@ -7,7 +7,8 @@
 /* make the background of the page black */
 
 body {
-	background: black;
+	background: orange;
+	height: 10000px;
 }
 
 
@@ -28,7 +29,16 @@ body {
 #canvas div{
 	border-radius: 200px;
 	position: absolute;
+	transition: all 500ms ease;
+
 }
+
+
+#canvas:hover div{
+	top: 0px;
+	left: 0px;
+}
+
 
 /* 
 adjust the top and left 
@@ -36,13 +46,15 @@ properties of the elements
 to position them 
 */
 
-#ear-1 {
+#canvas div#ear-1 {
 	width: 100px;
 	height: 100px;
 	background: black;
 
 	top: 100px;
 	left: 20px;
+
+	position: fixed;
 }
 
 #ear-2 {

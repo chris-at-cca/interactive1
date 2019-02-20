@@ -1,0 +1,40 @@
+/* reset */
+
+* {margin: 0px; padding: 0px;}
+   
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+.house {
+  float: left;
+  margin: 20px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+/* nighttime */
+
+body.night {
+  color: white;
+  background: black;
+}
+
+body.night a {
+  color: lightgrey;
+}
+
+/* nighttime */
+
+body.night.dusk, body.day.dusk, body.dusk {
+  color: black;
+  background: linear-gradient(to bottom, rgba(255,225,0,.3) 0%,rgba(255,225,0,1) 100%);
+}
+
+body.night.dusk a, body.day.dusk a, body.dusk a {
+  color black
+}
