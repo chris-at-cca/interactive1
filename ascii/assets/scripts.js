@@ -2,7 +2,8 @@ $(document).ready(function(){
       
       var objDate = new Date();
       var hours = objDate.getHours();
-      if(hours >= 7 && hours <= 19){
+      console.log(hours);
+      if(hours > 7 && hours < 18){
             $('body').addClass('day');
       }
       else{
