@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mickeys</title>
+    <link rel="stylesheet" type="text/css" href="main.css">    
+</head>
+<body>
+
+<div id="info">
+    <h1>CCA Spring Interactive 1<br />
+    CSS Mickey</h1>    
+    <p>Mickey Mouse drawn by section 1 of the <a href="http://spring2019.designing.tools/" target="_blank">CCA Spring Interactive 1</a> class using CSS. Inspired by <a href="https://www.google.com/search?q=damien+hirst+mickey&rlz=1C5CHFA_enUS845US845&source=lnms&tbm=isch&sa=X&ved=0ahUKEwig-tyDrY3iAhWI0VQKHbv6DOQQ_AUIDygC&biw=1393&bih=722">Damien Hirst's Mickeys</a>.
+</div>
+
+<iframe id="mickey" src="https://chris-at-cca.github.io/interactive1/mickey/" frameBorder="0"></iframe>
+
+
+
+<script>
+var urls = [
+'https://narenas1030.github.io/Interactive1/Mickey%202/index.html',
+'https://sirius33.github.io/interactive1/mickey1/index.html',
+'https://jdasilveira.github.io/interactive1/micky/micky.html',
+'https://kestonc.github.io/interactive1/Mickey/index.html',
+'https://tiahuang.github.io/interactive1/micky/index.html',
+'https://yunih.github.io/interactive1/mickey/mickey.html',
+'https://jenniferjang9.github.io/interactive1/mickey/index.html',
+'https://aashijhaveri.github.io/interactive1/mickey-mouse/mickey.html',
+'https://amandaleeplease.github.io/interactive1/mickey/index.html',
+'https://eunjileeeunji.github.io/interactive1/mickey/index.html',
+'https://jingyi1118.github.io/interactive1/mickey/index.html',
+'https://metism100.github.io/interactive1/mickey/mickey.html',
+
+];
+
+var i = 0;
+setInterval(function() {
+    document.getElementById('mickey').src = urls[i];    
+    i++;
+    console.log(i);
+    if(i == urls.length) {
+        i = 0;
+    }
+    console.log(i);
+}, 800);
+</script>    
+</body>
+</html>    
+
